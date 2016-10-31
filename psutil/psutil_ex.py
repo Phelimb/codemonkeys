@@ -1,3 +1,5 @@
 import psutil
-cpu = psutil.cpu_percent(interval=5, percpu=True)
-print(cpu)
+cpus = psutil.cpu_percent(interval=1, percpu=True)
+
+for cpu in cpus:
+    print(cpu)
