@@ -1,0 +1,1 @@
+from cythonfast import cythondemofast
